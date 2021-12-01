@@ -49,4 +49,5 @@ include/
 lib/
 
 # Build files
-release/
+release/*
+!release/.gitkeep
