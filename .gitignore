@@ -32,7 +32,9 @@
 *.app 
 
 # VS Code
+.vs/
 .vscode/*
+!.vscode/c_cpp_properties.json
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -41,3 +43,10 @@
 
 # Local History for Visual Studio Code
 .history/
+
+# PIG files
+include/
+lib/
+
+# Build files
+release/
