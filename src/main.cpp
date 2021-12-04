@@ -3,8 +3,8 @@
 PIG_Evento evento;          //evento ser tratado a cada passada do loop principal
 PIG_Teclado meuTeclado;     //vari�vel como mapeamento do teclado
 
-int main( int argc, char* args[] ){
-
+int main( int argc, char* args[] )
+{
     //criando o jogo (aplica��o)
     CriaJogo("Meu Jogo");
 
@@ -12,8 +12,8 @@ int main( int argc, char* args[] ){
     meuTeclado = GetTeclado();
 
     //loop principal do jogo
-    while(JogoRodando()){
-
+    while(JogoRodando())
+    {
         //pega um evento que tenha ocorrido desde a �ltima passada do loop
         evento = GetEvento();
 
